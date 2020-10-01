@@ -11,6 +11,7 @@ public class HomePage {
 	}
 	public String getLoginMessage() {
 		String text = driver.findElement(loginMsg).getText();
+		driver.findElement(By.xpath("")).click();
 		return text;
 	}
 }
