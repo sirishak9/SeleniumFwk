@@ -10,8 +10,10 @@ public class HomePage {
 		this.driver=driver;
 	}
 	public String getLoginMessage() {
-		driver.get("url");
-		driver.findElement(By.xpath("")).sendKeys("");
+
+		driver.get("");
+		driver.getTitle();
+
 		String text = driver.findElement(loginMsg).getText();
 		return text;
 		
