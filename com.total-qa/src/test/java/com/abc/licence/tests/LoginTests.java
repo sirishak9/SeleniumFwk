@@ -9,7 +9,7 @@ import com.abc.licence.pages.HomePage;
 import com.abc.licence.pages.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+//updated the code 
 public class LoginTests {
 	@Test(description = "Validate the title of the website")
 	public void validateTotalQaTitle() {
