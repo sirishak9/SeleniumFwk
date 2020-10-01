@@ -13,7 +13,7 @@ public class HomePage {
 		String text = driver.findElement(loginMsg).getText();
 		driver.findElement(By.xpath("")).click();
 		return text;
-		driver.get("");
-		driver.getTitle();
+		//driver.get("");
+		//driver.getTitle();
 	}
 }
