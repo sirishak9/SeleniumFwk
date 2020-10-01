@@ -11,7 +11,7 @@ import com.abc.licence.pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 //updated the code 
 public class LoginTests {
-	@Test(description = "Validate the title of the website")
+	@Test(description = "Validate the title of the website" ,priority = 1)
 	public void validateTotalQaTitle() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
